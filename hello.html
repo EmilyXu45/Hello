@@ -4,7 +4,7 @@
         <title>Hello!</title>
     </head>
     <body>
-        <h1>Welcome to my website!</h1>
+        <h1 style="color:blue;"> Welcome to my website! </h1>
         <h2>
             Hello!
         </h2>
@@ -19,6 +19,8 @@
         To access the latest version of the code from github to local:
         use [git pull]
 
-        Merge conflict: When two changes are made simultaneously on the same line
+        Merge conflict: When two changes are made simultaneously on the same line, git doesn't know whether to merge or rebase
+        [git config pull.rebase false]: This allows Git to perform a merge and create conflict markers.
+        [git pull]
     </body>
 </html>
